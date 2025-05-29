@@ -1,6 +1,6 @@
 # Lua-Calculator
 
-Lua-Calculator est une calculatrice en Lua qui effectue des opérations simple entre deux nombres.  
+Lua-Calculator est une calculatrice en Lua qui effectue des opérations simples entre deux nombres.  
 Ce projet vise à apprendre les bases du Lua.  
 
 # Fonctionnalités
