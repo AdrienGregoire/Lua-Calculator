@@ -11,7 +11,7 @@ function My_string_compare(a, b)
     else if a < b or a > b then
         return -1;
     else
-        return 1;
+        return 0;
         end;
     end;
 end;
