@@ -12,28 +12,17 @@ require("lib/My_mul");
 require("lib/My_div");
 
 function My_calculator(nb, operator, nb2)
+    local ret = 0;
     if My_string_compare(operator, "+") == 0 then
-        if My_add(nb, nb2) ~= 0 then
-            os.exit(84);
-        end;
-        return 0;
+        ret = My_add(nb, nb2);
+    elseif My_string_compare(operator, "-") == 0 then
+        ret = My_sub(nb, nb2);
+    elseif My_string_compare(operator, "*") == 0 then
+        ret = My_mul(nb, nb2);
+    elseif My_string_compare(operator, "/") == 0 then
+        ret = My_div(nb, nb2);
+    else
+        ret = 84;
     end;
-    if My_string_compare(operator, "-") == 0 then
-        if My_sub(nb, nb2) ~= 0 then
-            os.exit(84);
-        end;
-        return 0;
-    end;
-    if My_string_compare(operator, "*") == 0 then
-        if My_mul(nb, nb2) ~= 0 then
-            os.exit(84);
-        end;
-        return 0;
-    end;
-    if My_string_compare(operator, "/") == 0 then
-        if My_div(nb, nb2) ~= 0 then
-            os.exit(84);
-        end;
-        return 0;
-    end;
+    return ret;
 end;
