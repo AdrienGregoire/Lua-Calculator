@@ -26,6 +26,7 @@ end;
 
 local success, err = pcall(Main);
 if not success then
-    print("Le programme a été interrompu : " .. tostring(err));
+    print("\n");
+    print("Le programme a été interrompu");
     os.exit(0);
 end;
