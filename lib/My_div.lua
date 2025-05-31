@@ -9,7 +9,7 @@ function My_div(x, y)
     x = tonumber(x);
     y = tonumber(y);
     if type(x) ~= "number" or type(y) ~= "number" then
-        os.exit(84);
+        return 84;
     end;
     local number = x / y;
     print(number);
