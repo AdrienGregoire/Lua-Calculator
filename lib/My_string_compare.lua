@@ -9,8 +9,6 @@ function My_string_compare(a, b)
     if a == b then
         return 0;
     else
-        return 0;
+        return 1;
     end;
 end;
-
---test inutile
