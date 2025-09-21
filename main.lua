@@ -5,7 +5,6 @@
 -- main file of the project
 ]]
 
-
 require("SRC/My_calculator");
 
 function Main()
