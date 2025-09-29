@@ -1,21 +1,24 @@
 # Lua-Calculator
 
 ## Description
+
 Voici mon repo contenant un projet simple de **calculatrice en Lua**.
 Ce projet a pour but de manipuler des **fonctions Lua** et de structurer un petit programme avec des **modules séparés**.
 Il permet d'effectuer des opérations arithmétiques de base (+, -, *, /) en demandant les valeurs directement à l'utilisateur.
 
 ## 📚 Contenu
+
 Ce repo contient :
-- SRC/My_calculator.lua : La logique principale qui choisit quelle opération effectuer selon l'opérateur.
-- lib/ : Les fonctions d’opérations (My_add, My_sub, My_mul, My_div, My_string_compare).
-- main.lua : Le point d’entrée du programme qui lance la boucle interactive et appelle la fonction My_calculator.
+- <mark>SRC/My_calculator.lua</mark> : La logique principale qui choisit quelle opération effectuer selon l'opérateur.
+- <mark>lib/</mark> : Les fonctions d’opérations (<mark>My_add</mark>, <mark>My_sub</mark>, <mark>My_mul</mark>, <mark>My_div</mark>, <mark>My_string_compare</mark>).
+- <mark>main.lua</mark> : Le point d’entrée du programme qui lance la boucle interactive et appelle la fonction <mark>My_calculator</mark>.
 
 ## Compétences développées
-- Utilisation des modules et require() en Lua
-- Manipulation des types et conversions (tonumber)
+
+- Utilisation des modules et <mark>require()</mark> en Lua
+- Manipulation des types et conversions <mark>(tonumber)</mark>
 - Contrôle de flux avec des boucles et des conditions
-- Gestion des erreurs avec pcall pour éviter les crashs
+- Gestion des erreurs avec <mark>pcall</mark> pour éviter les crashs
 - Création d’une boucle interactive simple
 
 ## 📁 Structure du projet
@@ -33,6 +36,7 @@ Ce repo contient :
 ```
 
 ## Lancer le projet
+
 Assure-toi d’avoir Lua installé sur ta machine.
 Ensuite, lance simplement :
 ```bash
@@ -48,4 +52,5 @@ Entre y = 3
 ```
 
 ## Licence
+
 Aucune.
