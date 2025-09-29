@@ -11,11 +11,6 @@ Ce repo contient :
 - lib/ : Les fonctions d’opérations (My_add, My_sub, My_mul, My_div, My_string_compare).
 - main.lua : Le point d’entrée du programme qui lance la boucle interactive et appelle la fonction My_calculator.
 
-> ⚠️ **Disclaimer :**
-> Ce repo n'a pas vocation d'être un cheat code pour la Piscine.
-> J'ai créé ce repo pour garder un souvenir de ma piscine et pour la mettre en avant parmis mes autres projets personnels.
-> Si un étudiant tombe sur ce repo, je te conseille d'aller regarder ailleurs pour éviter un -42.
-
 ## Compétences développées
 - Utilisation des modules et require() en Lua
 - Manipulation des types et conversions (tonumber)
@@ -44,7 +39,13 @@ Ensuite, lance simplement :
 lua main.lua
 ```
 
-## Example de sortie
+## Exemple de sortie
+```bash
+Entre x = 12
+Entre le symbole = +
+Entre y = 3
+15
+```
 
 ## Licence
 Aucune.
